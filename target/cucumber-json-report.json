@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10203306556,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.before()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "login for flipcart",
+        "description": "",
+        "id": "checking-login-for-flipcart;login-for-flipcart",
+        "after": [
+          {
+            "result": {
+              "duration": 5236063171,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7081870499,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User is in home page",
+            "match": {
+              "location": "hook.user_is_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1645110833,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigate to login page",
+            "match": {
+              "location": "hook.user_navigate_to_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 335623,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "message displayed login successfully",
+            "match": {
+              "location": "hook.message_displayed_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Checking login for flipcart",
+    "description": "",
+    "id": "checking-login-for-flipcart",
+    "keyword": "Feature",
+    "uri": "hooks.feature"
+  }
+]
